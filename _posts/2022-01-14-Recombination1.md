@@ -71,6 +71,7 @@ pairs. The two reaction or ‘multiplication’ tables are below (the first
 recombined codon is Codon 1 \* Codon 2, while the second is Codon 2 \*
 Codon 1).
 
+{::nomarkdown}
 <figure>
 <center>
 <a href=src="../assets/images/recombination_table1.png">
@@ -89,7 +90,7 @@ Codon 1).
 </figcaption>
 </center>
 </figure>
-
+{:/}
 My absolute favorite recombination rule, though, is this one (denoting
 the recombination site as \|) :
 
