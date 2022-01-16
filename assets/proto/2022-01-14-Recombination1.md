@@ -1,8 +1,7 @@
----
-title: Sex sells: Meiosis and Recombination
-author: Rob Law
-date: 2022-01-16
----
+Sex sells: Meiosis and Recombination
+================
+Rob Law
+1/16/2022
 
 Sex sure turned out to be fun, but how did life manage to develop such a
 *complicated* set of processes? Even meiosis, the process by which sex
@@ -12,7 +11,7 @@ in high school.
 
 <figure>
 <center>
-<img src="../assets/images/800px-HR_in_meiosis.svg.png", width=400, height=400>
+<img src="../images/800px-HR_in_meiosis.svg.png", width=400, height=400>
 <figcaption align="center"> Chromosomal crossover (Image credit:<a href="https://commons.wikimedia.org/w/index.php?curid=8025119">Emw</a> CC BY-SA 3.0)
 </figcaption>
 </center>
@@ -52,13 +51,13 @@ through meiosis, intragenic recombination can yield either of the
 following in your child (for simplicity, I’m leaving out the
 complementary strands in these images):
 
-![Crossing](../assets/images/crossover1.png) , which is Leucine (CTC)
-and Arginine (AGG),
+![Crossing](../images/crossover1.png) , which is Leucine (CTC) and
+Arginine (AGG),
 
 or
 
-![Crossing 2](../assets/images/crossover2.png) , which is Arginine (CGC)
-and Methionine (ATG).
+![Crossing 2](../images/crossover2.png) , which is Arginine (CGC) and
+Methionine (ATG).
 
 That is, for each codon there are two sites where recombination can
 split the codon and rejoin it with its homolog, and the resulting
@@ -71,8 +70,8 @@ Codon 1).
 
 <figure>
 <center>
-<a href=src="../assets/images/recombination_table1.png">
-<img src="../assets/images/recombination_table1.png", width=400, height=400>
+<a href=src="../images/recombination_table1.png">
+<img src="../images/recombination_table1.png", width=400, height=400>
 </a>
 <figcaption align="center"> Recombination with break at site 1 (click to enlarge)
 </figcaption>
@@ -80,8 +79,8 @@ Codon 1).
 </figure>
 <figure>
 <center>
-<a href=src="../assets/images/recombination_table1.png">
-<img src="../assets/images/recombination_table2.png", width=400, height=400>
+<a href=src="../images/recombination_table1.png">
+<img src="../images/recombination_table2.png", width=400, height=400>
 </a>
 <figcaption align="center"> Recombination with break at site 2 (click to enlarge)
 </figcaption>
