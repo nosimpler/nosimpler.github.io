@@ -76,10 +76,13 @@ Codon 1).
 <center>
 <img src="https://nosimpler.github.io/assets/images/recombination_table1.png", width=400, height=400>
 </a>
-<figcaption align="center"> Recombination with break at site 1 (click [here](https://nosimpler.github.io/assets/images/recombination_table1.png) to enlarge)
+<figcaption align="center"> Recombination with break at site 1 
 </figcaption>
 </center>
 </figure>
+{:/}
+(click [here](https://nosimpler.github.io/assets/images/recombination_table1.png) to enlarge)
+{::nomarkdown}
 <figure>
 <center>
 <a href src="https://nosimpler.github.io/assets/images/recombination_table2.png">
