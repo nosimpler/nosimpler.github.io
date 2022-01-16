@@ -10,6 +10,7 @@ cells are made, remains somewhat mysterious to me. In particular,
 **homologous recombination** has mystified me since I learned about it
 in high school.
 
+{::nomarkdown}
 <figure>
 <center>
 <img src="../assets/images/800px-HR_in_meiosis.svg.png", width=400, height=400>
@@ -17,6 +18,7 @@ in high school.
 </figcaption>
 </center>
 </figure>
+{:/}
 
 **Chromosomal crossover** is the meiotic version of homologous
 recombination. It’s a pretty amazing process by which, somehow, two
