@@ -1,7 +1,9 @@
-Sex sells: Meiosis and Recombination
-================
-Rob Law
-1/16/2022
+---
+layout: post
+title: Sex sells: Meiosis and Recombination
+date: 2022-01-16
+categories: recombination meiosis
+---
 
 Sex sure turned out to be fun, but how did life manage to develop such a
 *complicated* set of processes? Even meiosis, the process by which sex
