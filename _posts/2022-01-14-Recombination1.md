@@ -71,28 +71,11 @@ pairs. The two reaction or ‘multiplication’ tables are below (the first
 recombined codon is Codon 1 \* Codon 2, while the second is Codon 2 \*
 Codon 1).
 
-{::nomarkdown}
-<figure>
-<center>
-<img src="https://nosimpler.github.io/assets/images/recombination_table1.png", width=400, height=400>
-</a>
-<figcaption align="center"> Recombination with break at site 1 
-</figcaption>
-</center>
-</figure>
-{:/}
-(click [here](https://nosimpler.github.io/assets/images/recombination_table1.png) to enlarge)
-{::nomarkdown}
-<figure>
-<center>
-<a href src="https://nosimpler.github.io/assets/images/recombination_table2.png">
-<img src="https://nosimpler.github.io/assets/images/recombination_table2.png", width=400, height=400>
-</a>
-<figcaption align="center"> Recombination with break at site 2 (click to enlarge)
-</figcaption>
-</center>
-</figure>
-{:/}
+[![](../assets/images/recombination_table1.png)](../assets/images/recombination_table1.png)
+
+[![](../assets/images/recombination_table2.png)](../assets/images/recombination_table2.png)
+
+
 My absolute favorite recombination rule, though, is this one (denoting
 the recombination site as \|) :
 
