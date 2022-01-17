@@ -1,5 +1,5 @@
 ---
-title: Sex sells -- Meiosis and Recombination
+title: Sex sells - Meiosis and Recombination
 author: Rob Law
 date: 2022-01-16
 ---
