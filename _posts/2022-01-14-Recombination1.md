@@ -75,15 +75,16 @@ Codon 1).
 
 [![](../assets/images/recombination_table2.png)](../assets/images/recombination_table2.png)
 
-These tables are huge and difficult to read! I'm going to have to spend some time unpacking them in later posts. For now, I just want to talk about my absolute favorite recombination rule:
+These tables are huge and difficult to read! I'm going to have to spend some time unpacking them in later posts. For now, I just want to tell you about my absolute favorite recombination rule:
 
 TA\|G and TG\|A -&gt; TGG and TAA
+
 (denoting the recombination site as \|) 
 
 TAG, TGA, and TAA are stop codons, but TGG is tryptophan (W)!
 
 Now, I think we might have an inkling of *why* there are three different
-types of stop codon! But more than that, we have the somewhat bizarre
+types of stop codon! We have the somewhat bizarre
 possibility that recombination can lead to extension of a gene, because
 if a stop codon is converted to tryptophan during recombination,
 transcription in the daughter cell will proceed until the next stop. And
