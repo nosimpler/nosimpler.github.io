@@ -22,7 +22,7 @@ in high school.
 
 **Chromosomal crossover** is the meiotic version of homologous
 recombination. It’s a pretty amazing process by which, somehow, two
-homologous chromosomes are aligned exactly, twisted off, and viola! Part
+homologous chromosomes are aligned exactly, twisted off, and voila! Part
 of mom’s side switches over to dad’s side, and vice-versa. It’s this
 process that intertwines a parent’s genes, so as to make you the unique
 and special flower that you are. Without recombination, you’d just be a
