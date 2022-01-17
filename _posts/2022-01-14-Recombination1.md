@@ -47,7 +47,9 @@ chromosomes are to be found.
 For now, we’ll dispense with what intragenic recombination is *for*, and
 just point out what it can *do*. Under assumption of intragenic
 recombination, we get a whole new set of non-Mendelian rules for
-inheritance. These are far from boring. For instance, let’s say mom gave
+inheritance. 
+
+These are far from boring. For instance, let’s say mom gave
 you a codon CTG, which codes the amino acid Leucine and dad gave you the
 codon AGC, which codes the amino acid Serine. When you make a sex cell
 through meiosis, intragenic recombination can yield either of the
