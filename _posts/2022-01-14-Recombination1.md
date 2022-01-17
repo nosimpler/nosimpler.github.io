@@ -1,5 +1,5 @@
 ---
-title: Sex sells: Meiosis and Recombination
+title: Sex sells -- Meiosis and Recombination
 author: Rob Law
 date: 2022-01-16
 ---
@@ -75,11 +75,10 @@ Codon 1).
 
 [![](../assets/images/recombination_table2.png)](../assets/images/recombination_table2.png)
 
-
-My absolute favorite recombination rule, though, is this one (denoting
-the recombination site as \|) :
+These tables are huge and difficult to read! I'm going to have to spend some time unpacking them in later posts. For now, I just want to talk about my absolute favorite recombination rule:
 
 TA\|G and TG\|A -&gt; TGG and TAA
+(denoting the recombination site as \|) 
 
 TAG, TGA, and TAA are stop codons, but TGG is tryptophan (W)!
 
@@ -90,8 +89,7 @@ if a stop codon is converted to tryptophan during recombination,
 transcription in the daughter cell will proceed until the next stop. And
 finally, we have W as a *signature* of that extension. This of course
 does not mean that all (or even most) tryptophan encoded in the genome
-exists *because of* gene extension, but it would sure be a lot of fun if
-we could estimate how much.
+exists *because of* recombinatory gene extension, but it would sure be a lot of fun if we could estimate how much.
 
 (Thanks to [Lior Pachter](https://twitter.com/lpachter) for reminding me
 about the McVean paper that motivated this post!)
