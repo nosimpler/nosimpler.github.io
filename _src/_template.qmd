@@ -1,0 +1,20 @@
+---
+title: "Post title"
+date: 2026-11-01
+categories:
+  - research
+tags:
+  - example
+math: true                       # loads MathJax; delete if the post has no math
+bibliography: references.bib     # optional; delete if no citations
+---
+
+Write the post here. Inline math like $x_i$ and display math:
+
+$$
+\dot{x} = f(x)
+$$
+
+![Caption approved by the author.](/assets/posts/2026-11-01-post-title/figure1.png){#fig-example}
+
+See @fig-example. Citations look like [@key].

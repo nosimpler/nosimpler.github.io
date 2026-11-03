@@ -1,0 +1,12 @@
+<!-- MathJax: renders the \( \) and \[ \] math that kramdown emits for $$...$$ -->
+{% if page.math %}
+<script>
+  window.MathJax = { tex: { tags: "ams" } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+{% endif %}
+
+<!-- The masthead already shows the name; hide the duplicate in the sidebar author profile -->
+<style>
+  .author__name { display: none; }
+</style>

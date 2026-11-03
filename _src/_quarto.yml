@@ -1,0 +1,14 @@
+# Quarto project for blog posts. Each post is _src/YYYY-MM-DD-slug.qmd;
+# scripts/render-post turns it into _posts/YYYY-MM-DD-slug.md for Jekyll.
+project:
+  type: default
+
+format:
+  gfm:
+    preserve-yaml: true
+    wrap: none
+    filters:
+      - jekyll-math.lua
+
+execute:
+  enabled: false   # code lives in the project repos, not in posts

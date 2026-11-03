@@ -13,11 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: A loose canon
+title: "Robert Law, PhD"
 email: nosimpler@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a computational neuroscientist and consultant in Boston.
-twitter_username: Partitio_nBlues
+  Computational neuroscientist and mathematical biologist in Central Massachusetts.
 github_username: nosimpler
 minimal_mistakes_skin: default
 search: true
@@ -25,12 +24,14 @@ search: true
 # Build settings
 repository: nosimpler/nosimpler.github.io
 markdown: kramdown
+kramdown:
+  parse_block_html: true   # so Markdown inside Quarto figure <div>s renders
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 include:
   - _pages
@@ -38,7 +39,17 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - PLAN.md
+  - SITE_NOTES.md
+  - POSTING.md
+  - scripts/
+  - .devcontainer/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
+  - LICENSE
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -57,22 +68,23 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Rob Law"
+  name   : "Robert Law, PhD"
   avatar : "/assets/images/logo.png"
-  bio    : ""
+  bio    : "Computational neuroscience, dynamical systems, and scientific software."
+  location: "Central Massachusetts"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Partitio_nBlues"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nosimpler"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/robert-law-a213644"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-1220-3871"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Partitio_nBlues"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nosimpler"
@@ -86,7 +98,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -103,3 +115,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Analytics: GoatCounter (privacy-friendly, no cookies). Set goatcounter_code to
+# the account code from https://www.goatcounter.com (the "xxx" in xxx.goatcounter.com).
+# Left empty, no tracking script is loaded.
+analytics:
+  provider: custom
+goatcounter_code: ""

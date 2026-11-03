@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Render one Quarto post to Jekyll Markdown.
+#   scripts/render-post _src/2026-11-01-slug.qmd   ->   _posts/2026-11-01-slug.md
+set -euo pipefail
+src="${1:?usage: scripts/render-post _src/YYYY-MM-DD-slug.qmd}"
+name="$(basename "$src" .qmd)"
+root="$(cd "$(dirname "$0")/.." && pwd)"
+
+cd "$root/_src"
+quarto render "$name.qmd" --to gfm --quiet
+
+# Adapt Quarto's output for Jekyll:
+#  - keep the plain date (Quarto writes UTC midnight, which shows as the day before)
+#  - drop the title/date block Quarto adds, since the Jekyll layout shows them
+#  - restore root-relative asset paths (Quarto rewrites /assets to ./assets)
+awk '
+  NR == 1 && /^---$/ { fm = 1; print; next }
+  fm && /^---$/      { fm = 0; after = 1; print; next }
+  fm { sub(/^date: [0-9-]+T.*$/, "date: " substr($2, 1, 10)); print; next }
+  after == 1 && /^$/    { next }
+  after == 1 && /^# /   { after = 2; next }
+  after == 2 && /^$/    { next }
+  after == 2 && /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/ { after = 0; next }
+  { after = 0; gsub(/\(\.\/assets\//, "(/assets/"); print }
+' "$name.md" > "$root/_posts/$name.md"
+rm "$name.md"
+echo "Wrote _posts/$name.md"
