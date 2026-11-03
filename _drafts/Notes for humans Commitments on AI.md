@@ -2,7 +2,7 @@
 
 In this I can make two commitments to you, my increasingly improbably human reader:
 
-1. Posts here will be entirely human-written.
+1. Posts on this blog will be entirely human-written.
 
 Why? Internet death spiral aside, my main rationale for having a blog is that *I like writing*. Exceptions to this rule will include most code --- including site design and other such nonsense: in fact if I ever write code by hand, I probably won't shut up about it. 
 
